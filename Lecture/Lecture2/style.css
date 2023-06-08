@@ -1,0 +1,19 @@
+.heading {
+  color: darkmagenta;
+}
+
+.title {
+  background-color: grey;
+}
+
+.heading-about{
+  color: orange;
+}
+
+p {
+    font-size: 18px; color: red;
+}
+
+p a {
+  color: inherit;
+}
