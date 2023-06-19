@@ -45,10 +45,22 @@ header {
 }
 
 .header_block {
+  display: flex;
+  justify-content: space-between;
 }
 
 .navigation {
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 11px 0 12px 0;
+}
+
+.Features {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .navigation__link {
@@ -67,12 +79,15 @@ main {
 }
 
 .mainContent {
+  display: flex;
+  justify-content: space-between;
 }
 
 .mainContentBlock {
 }
 
 .mainContentTitle {
+  width: 522px;
   font-family: "Gilroy-Bold";
   font-size: 60px;
   line-height: 70px;
@@ -81,6 +96,7 @@ main {
 }
 
 .mainContenText {
+  width: 466px;
   font-family: "Gilroy-Medium";
   font-size: 20px;
   line-height: 23px;
@@ -89,6 +105,8 @@ main {
 }
 
 .mainContenButton {
+  display: flex;
+  gap: 37px;
 }
 
 button {
@@ -100,7 +118,7 @@ button {
   box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
   border-radius: 50px;
   padding: 15px 36px 16px 35px;
-  margin-bottom: 162px;
+
   cursor: pointer;
   bottom: none;
   border: #f25822;
@@ -117,4 +135,6 @@ footer {
 }
 
 .logosContainer {
+  display: flex;
+  justify-content: space-between;
 }
