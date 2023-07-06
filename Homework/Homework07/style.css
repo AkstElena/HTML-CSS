@@ -234,16 +234,32 @@ img {
   background: none;
 }
 
-/* @media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .container_top {
     width: 1024px;
-    * .container {
-      width: 730px;
-    }
-
-
   }
-} */
+
+  .container {
+    width: 736px;
+  }
+
+  .header_blok {
+    gap: 424px;
+  }
+
+  .image1 {
+    width: 512px;
+  }
+
+  .title_block p {
+    width: 283px;
+    margin: 138px 33px 151px 39px;
+  }
+
+  .products {
+    gap: 16px;
+  }
+}
 
 @media (max-width: 768px) {
   .container_top {
@@ -252,7 +268,7 @@ img {
   }
 
   .container {
-    width: 734px;
+    width: 736px;
   }
 
   .header_blok {
