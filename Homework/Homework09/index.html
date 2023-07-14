@@ -6,27 +6,33 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="script.js" defer></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@600;800&family=Raleway:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Homework 07</title>
+    <title>Homework09</title>
   </head>
   <body>
     <header>
       <div class="header_blok container_top">
         <div class="header_blok_left">
           <a href="#"><img src="img/Logo01.png" alt="Логотип" /></a>
-          <button><img src="img/Logo02.svg" alt="Поиск" /></button>
+          <a href="#"><img src="img/Logo02.svg" alt="Поиск" /></a>
         </div>
         <div class="header_blok_right">
-          <button><img src="img/Logo03.svg" alt="Меню" /></button>
-          <button class="no_mobile">
+          <a href="#" class="burger">
+            <img src="img/Logo03.svg" alt="Меню" />
+          </a>
+          <a href="#" class="no_mobile">
             <img src="img/Logo04.svg" alt="Личный кабинет" />
-          </button>
-          <button class="no_mobile">
+          </a>
+          <a href="#" class="no_mobile">
             <img src="img//Logo05.png" alt="Корзина" />
-          </button>
+          </a>
+          <div class="number no_mobile">
+            <p>5</p>
+          </div>
         </div>
       </div>
     </header>
@@ -42,6 +48,41 @@
           <span>OF LUXERIOUS</span>
           <span class="color">FASHION</span>
         </p>
+        <div class="menu_active hidden">
+          <div class="menu_active_all">
+            <h4 class="menu_heading">MENU</h4>
+            <div class="menu_man">
+              <h5 class="menu_text">MAN</h5>
+              <ul class="menu_list">
+                <li><a href="#"></a>Accessories</li>
+                <li><a href="#"></a>Bags</li>
+                <li><a href="#"></a>Denim</li>
+                <li><a href="#"></a>T-Shirts</li>
+              </ul>
+            </div>
+            <div class="menu_woman">
+              <h5 class="menu_text">WOMEN</h5>
+              <ul class="menu_list">
+                <li><a href="#"></a>Accessories</li>
+                <li><a href="#"></a>Jackets & Coats</li>
+                <li><a href="#"></a>Polos</li>
+                <li><a href="#"></a>T-Shirts</li>
+                <li><a href="#"></a>Shirts</li>
+              </ul>
+            </div>
+            <div class="menu_kids">
+              <h5 class="menu_text">KIDS</h5>
+              <ul class="menu_list">
+                <li><a href="#"></a>Accessories</li>
+                <li><a href="#"></a>Jackets & Coats</li>
+                <li><a href="#"></a>Polos</li>
+                <li><a href="#"></a>T-Shirts</li>
+                <li><a href="#"></a>Shirts</li>
+                <li><a href="#"></a>Bags</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section>
@@ -71,7 +112,11 @@
         <h2>Shop for items based on what we featured in this week</h2>
         <div class="products">
           <div class="product_card p_card1">
-            <img src="img/Prodact1.jpg" alt="Prodact1" />
+            <img class="dimming" src="img/Prodact1.jpg" alt="Prodact1" />
+            <div class="add hidden_add">
+              <img src="img/Logo05.png" alt="add" />
+              <h4 class="dimming_p">Add to Cart</h4>
+            </div>
             <h1><b>ELLERY X M'O CAPSULE</b></h1>
             <p>
               Known for her sculptural takes on traditional tailoring,
@@ -80,7 +125,11 @@
             <h2>$52.00</h2>
           </div>
           <div class="product_card p_card2">
-            <img src="img/Prodact2.png" alt="Prodact2" />
+            <img class="dimming" src="img/Prodact2.png" alt="Prodact2" />
+            <div class="add hidden_add">
+              <img src="img/Logo05.png" alt="add" />
+              <h4 class="dimming_p">Add to Cart</h4>
+            </div>
             <h1><b>ELLERY X M'O CAPSULE</b></h1>
             <p>
               Known for her sculptural takes on traditional tailoring,
@@ -89,7 +138,11 @@
             <h2>$52.00</h2>
           </div>
           <div class="product_card p_card3">
-            <img src="img/Prodact3.png" alt="Prodact3" />
+            <img class="dimming" src="img/Prodact3.png" alt="Prodact3" />
+            <div class="add hidden_add">
+              <img src="img/Logo05.png" alt="add" />
+              <h4 class="dimming_p">Add to Cart</h4>
+            </div>
             <h1><b>ELLERY X M'O CAPSULE</b></h1>
             <p>
               Known for her sculptural takes on traditional tailoring,
@@ -98,7 +151,11 @@
             <h2>$52.00</h2>
           </div>
           <div class="product_card p_card4">
-            <img src="img/Prodact4.png" alt="Prodact4" />
+            <img class="dimming" src="img/Prodact4.png" alt="Prodact4" />
+            <div class="add hidden_add">
+              <img src="img/Logo05.png" alt="add" />
+              <h4 class="dimming_p">Add to Cart</h4>
+            </div>
             <h1><b>ELLERY X M'O CAPSULE</b></h1>
             <p>
               Known for her sculptural takes on traditional tailoring,
@@ -107,7 +164,11 @@
             <h2>$52.00</h2>
           </div>
           <div class="product_card p_card5">
-            <img src="img/Prodact5.png" alt="Prodact5" />
+            <img class="dimming" src="img/Prodact5.png" alt="Prodact5" />
+            <div class="add hidden_add">
+              <img src="img/Logo05.png" alt="add" />
+              <h4 class="dimming_p">Add to Cart</h4>
+            </div>
             <h1><b>ELLERY X M'O CAPSULE</b></h1>
             <p>
               Known for her sculptural takes on traditional tailoring,
@@ -116,7 +177,11 @@
             <h2>$52.00</h2>
           </div>
           <div class="product_card p_card6">
-            <img src="img/Prodact6.png" alt="Prodact6" />
+            <img class="dimming" src="img/Prodact6.png" alt="Prodact6" />
+            <div class="add hidden_add">
+              <img src="img/Logo05.png" alt="add" />
+              <h4 class="dimming_p">Add to Cart</h4>
+            </div>
             <h1><b>ELLERY X M'O CAPSULE</b></h1>
             <p>
               Known for her sculptural takes on traditional tailoring,
