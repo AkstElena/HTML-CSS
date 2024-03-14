@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="index.html">Главная</a>
+    <a href="./info/about.html">Обо мне</a>
+    <a href="./form.html">Оставить заявку</a>
+    <h1>Моя первая html страница</h1>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia beatae
+      quo voluptatum tempora quia minus, illum consequatur saepe minima
+      voluptate doloremque rem animi, delectus hic? Quos labore ipsum ducimus
+      error?
+    </p>
+    <h2>Заголовок 2 уровня</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cupiditate
+      omnis ut officia ipsum esse voluptatum accusamus! Optio, vero atque!
+    </p>
+    <p>
+      Fuga ducimus deleniti alias sit consectetur consequatur ex ipsam ad cumque
+      praesentium. Molestias deleniti enim laudantium rerum, sapiente ea
+      pariatur.
+    </p>
+    <p>
+      Ut, magnam, iure a quia tenetur nesciunt itaque debitis eveniet enim
+      distinctio ipsum ab! Ratione exercitationem repellat quos soluta quam.
+    </p>
+    <a href="https://vk.com/akstelena" target="_blank"
+      ><img
+        src="./img/free-icon-vkontakte-4494490.png"
+        height="30"
+        width="30"
+        alt="Ссылка на вк"
+        title="VK"
+    /></a>
+    <a href="https://web.telegram.org/a/" target="_blank"
+      ><img
+        src="./img/free-icon-telegram-2111710.png"
+        height="30"
+        width="30"
+        alt="Ссылка на телеграм"
+        title="Телеграм"
+    /></a>
+    <p>
+      <img
+        src="./img/map.gif"
+        width="600"
+        height="400"
+        usemap="#map"
+        alt="Навигация"
+      />
+    </p>
+    <p>
+      <!-- Задайте html map, html карту на сайте через специальный тег map, который позволяет создавать на изображении
+      "горячие зоны", по которым можно кликнуть. Эти зоны задаются при помощи вложенных тегов <area>, которые в свою очередь опредляют
+      координаты на изображении, на которые будет реагировать клик.
+      В качестве формы задания таких зон используйте круг (circle) - shape = "circle" и coords="x, y, r".      
+      Координаты (x,y) определяют центр круга, r - радиус. Данные по координатам рассчитайте или с помощью DevTools, или в Paint, примерно "на глаз"
+    Если poly, то это полигон и много точек которые его очерчивают-->
+      <map name="map"
+        ><area
+          shape="circle"
+          coords="300, 200, 100"
+          href="./area1.html"
+          alt="Закладка 1"
+          title="Зона 1"
+          target="_blank"
+        />
+        <area
+          shape="circle"
+          coords="100, 5, 100"
+          href="./area2.html"
+          alt="Закладка 2"
+          title="Зона 2"
+          target="_blank"
+        /><area
+          shape="circle"
+          coords="500, 395, 100"
+          href="./area3.html"
+          alt="Закладка 3"
+          title="Зона 3"
+          target="_blank"
+        />
+      </map>
+    </p>
+  </body>
+</html>
