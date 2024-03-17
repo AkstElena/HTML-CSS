@@ -11,6 +11,9 @@ a {
   padding-top: 30px;
   padding-bottom: 30px;
   background: #2f2e41;
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
 }
 
 .header__link {
@@ -24,6 +27,8 @@ a {
 .top {
   padding-top: 84px;
   padding-bottom: 84px;
+  display: flex;
+  align-items: center;
 }
 
 .title {
@@ -58,4 +63,32 @@ a {
   line-height: 30px;
   color: #7d7987;
   mix-blend-mode: normal;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contacts {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #2f2e41;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.text {
+  margin: 20px;
 }
