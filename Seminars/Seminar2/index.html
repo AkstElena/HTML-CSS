@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- <nav class="navigation">
+      <a class="navigation__link" href="index.html">Главная</a>
+      <a class="navigation__link" href="./info/about.html">Обо мне</a>
+      <a class="navigation__link" href="./form.html">Оставить заявку</a>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Главная</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./info/about.html">Обо мне</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./form.html">Оставить заявку</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1>Моя первая html страница</h1>
+    <p class="text">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia beatae
+      quo voluptatum tempora quia minus, illum consequatur saepe minima
+      voluptate doloremque rem animi, delectus hic? Quos labore ipsum ducimus
+      error?
+    </p>
+    <h2 class="two_level">Заголовок 2 уровня</h2>
+    <p class="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cupiditate
+      omnis ut officia ipsum esse voluptatum accusamus! Optio, vero atque!
+    </p>
+    <p class="text">
+      Fuga ducimus deleniti alias sit consectetur consequatur ex ipsam ad cumque
+      praesentium. Molestias deleniti enim laudantium rerum, sapiente ea
+      pariatur.
+    </p>
+    <p class="text">
+      Ut, magnam, iure a quia tenetur nesciunt itaque debitis eveniet enim
+      distinctio ipsum ab! Ratione exercitationem repellat quos soluta quam.
+    </p>
+    <div class="social_media">
+      <a href="https://vk.com/akstelena" target="_blank"
+        ><img
+          src="./img/free-icon-vkontakte-4494490.png"
+          height="30"
+          width="30"
+          alt="Ссылка на вк"
+          title="VK"
+      /></a>
+      <a href="https://web.telegram.org/a/" target="_blank"
+        ><img
+          src="./img/free-icon-telegram-2111710.png"
+          height="30"
+          width="30"
+          alt="Ссылка на телеграм"
+          title="Телеграм"
+      /></a>
+    </div>
+    <p class="text map_zone">
+      <img
+        src="./img/map.gif"
+        width="600"
+        height="400"
+        usemap="#map"
+        alt="Навигация"
+      />
+    </p>
+    <p class="text">
+      <!-- Задайте html map, html карту на сайте через специальный тег map, который позволяет создавать на изображении
+      "горячие зоны", по которым можно кликнуть. Эти зоны задаются при помощи вложенных тегов <area>, которые в свою очередь опредляют
+      координаты на изображении, на которые будет реагировать клик.
+      В качестве формы задания таких зон используйте круг (circle) - shape = "circle" и coords="x, y, r".      
+      Координаты (x,y) определяют центр круга, r - радиус. Данные по координатам рассчитайте или с помощью DevTools, или в Paint, примерно "на глаз"
+    Если poly, то это полигон и много точек которые его очерчивают-->
+      <map name="map"
+        ><area
+          shape="circle"
+          coords="300, 200, 100"
+          href="./area1.html"
+          alt="Закладка 1"
+          title="Зона 1"
+          target="_blank"
+        />
+        <area
+          shape="circle"
+          coords="100, 5, 100"
+          href="./area2.html"
+          alt="Закладка 2"
+          title="Зона 2"
+          target="_blank"
+        /><area
+          shape="circle"
+          coords="500, 395, 100"
+          href="./area3.html"
+          alt="Закладка 3"
+          title="Зона 3"
+          target="_blank"
+        />
+      </map>
+    </p>
+  </body>
+</html>

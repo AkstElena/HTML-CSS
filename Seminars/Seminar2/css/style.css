@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-family: Montserrat, sans-serif;
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: Mont, Verdana, Geneva, Tahoma, sans-serif;
+  src: url(../fonts/MontserratAlternates-Light.ttf);
+  font-weight: 300;
+  font-size: 15px;
+}
+
+:root {
+  --color_1: aqua;
+}
+
+body {
+  font-family: sans-serif;
+  /* margin: 1rem; */
+  /* (береться от размера в html - root) */
+}
+
+.navigation {
+  display: flex;
+  gap: 50px;
+  margin-left: 10px;
+}
+
+.navigation__link {
+  color: cornflowerblue;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.navigation__link:hover {
+  color: var(--color_1);
+}
+
+.navigation__link:active {
+  color: red;
+}
+
+h1 {
+  font-family: Mont, sans-serif;
+  color: #222222;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+}
+
+.social_media {
+  display: flex;
+  justify-content: start;
+  gap: 50px;
+  margin: 20px;
+}
+.map_zone {
+  display: flex;
+  justify-content: center;
+}
+
+.two_level {
+  color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+.about_img {
+  border-radius: 10px;
+  width: 300px;
+}
+
+.form {
+  margin: 5px 10px;
+}
+
+.input_form {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 5px;
+}
