@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #020a18;
+  font-style: normal;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 1146px;
+  margin: 0 auto; /* 0 это отступ снизу и сверху, авто - слева и справа автоматически в зависимости от width*/
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  /* border-radius: 10px; */
+  backdrop-filter: blur(100px);
+  /* box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1); */
+}
+
+.navigation__link {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+
+.top_content {
+  margin-top: 160px;
+  display: flex;
+  gap: 128px;
+}
+
+.top_title {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 130%;
+  color: #fff;
+}
+
+.first_text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #3a68b8;
+}
+
+.top_text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: #fff;
+  width: 558px;
+  height: 117px;
+}
+.top_buttons {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  width: 408px;
+  height: 57px;
+}
+.btn_start {
+  border-radius: 5px;
+  padding: 15px 30px;
+  background: #3a68b8;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+
+.btn_watch {
+  background: #3a68b8;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.top_logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 197px;
+  margin-bottom: 99px;
+}

@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Gilroy-Bold", sans-serif;
+  src: url(./fonts/gilroy-bold.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Medium", sans-serif;
+  src: url(./fonts/gilroy-medium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 40px;
+  margin-bottom: 84px;
+}
+
+.header_block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Gilroy-Bold", sans-serif;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 14px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+}
+.navigation {
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 0 12px 0;
+}
+
+.Features {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.navigation__link {
+  font-family: "Gilroy-SemiBold", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.red {
+  color: #f25822;
+}
+
+main {
+  margin-bottom: 162px;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainContentTitle {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 60px;
+  letter-spacing: -0.5px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.mainContenText {
+  width: 466px;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 20px;
+  color: #888888;
+  margin-bottom: 40px;
+}
+
+.mainContenButton {
+  display: flex;
+  gap: 37px;
+}
+
+button {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  background: #f25822;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+  padding: 15px 36px 16px 35px;
+  cursor: pointer;
+  bottom: none;
+  border: #f25822;
+}
+
+.watch {
+  background: #ffffff;
+  color: #aaaaaa;
+  border: #ffffff;
+  box-shadow: none;
+}
+
+.main_img {
+  width: 610px;
+}
+
+footer {
+  padding: 97px 0;
+}
+
+.logosContainer {
+  display: flex;
+  justify-content: space-between;
+}
