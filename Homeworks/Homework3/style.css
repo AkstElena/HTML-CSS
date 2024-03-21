@@ -34,15 +34,19 @@ header {
 }
 
 .logo {
-  font-family: "Gilroy-Bold", sans-serif;
   display: flex;
   justify-content: start;
   align-items: center;
   gap: 14px;
+}
+
+.log_text {
+  font-family: "Gilroy-Bold", sans-serif;
   font-weight: 400;
   font-size: 24px;
   color: #000;
 }
+
 .navigation {
   width: 533px;
   display: flex;
@@ -58,9 +62,9 @@ header {
 }
 
 .navigation__link {
-  font-family: "Gilroy-SemiBold", sans-serif;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
   color: #000000;
 }
 
@@ -79,6 +83,7 @@ main {
 
 .mainContentTitle {
   font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
   font-size: 60px;
   letter-spacing: -0.5px;
   color: #000000;
@@ -89,6 +94,7 @@ main {
   width: 466px;
   font-family: "Gilroy-Medium", sans-serif;
   font-size: 20px;
+  font-weight: 400;
   color: #888888;
   margin-bottom: 40px;
 }
@@ -101,7 +107,7 @@ main {
 button {
   font-family: "Gilroy-Bold", sans-serif;
   font-size: 15px;
-  line-height: 18px;
+  font-weight: 400;
   color: #ffffff;
   background: #f25822;
   box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
